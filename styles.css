@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    height: 60vh;
+    width: 60vw;
+}
+
+.divColumn {
+    display: flex;
+    justify-content: center;
+    
+    height: 100%;
+}
+
+.divRow {
+    border: solid 1px black;
+    width: 100%;
+}
