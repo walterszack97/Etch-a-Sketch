@@ -11,9 +11,13 @@ function createDivs(){
             const divRow = document.createElement("div");
             divRow.classList.add("divRow");
             divColumn.appendChild(divRow);
-            divRow.textContent = p;
+            divRow.addEventListener("mouseover", (event) => {
+                divRow.style.backgroundColor = "red";
+            })
         }
     }
 }
 
+
 createDivs();
+
