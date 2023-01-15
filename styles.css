@@ -4,12 +4,18 @@ body {
     align-items: center;
 }
 
+.optionsMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .container {
     display: flex;
     flex-direction: column;
     
-    height: 60vh;
-    width: 60vw;
+    height: 80vh;
+    width: 55vw;
 }
 
 .divColumn {
@@ -29,6 +35,9 @@ body {
 }
 
 .slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     margin: 20px;
 }
@@ -39,4 +48,24 @@ body {
     font-weight: bolder;
     border-radius: 10px;
     border: solid 1px gray;
+}
+
+li {
+    list-style: none;
+}
+
+#blackBtn {
+    background-color: black;
+    color: white;
+}
+#whiteBtn {
+    background-color: white;
+    color: black;
+}
+#randomBtn {
+    background-color: blue;
+    color: pink;
+}
+button {
+    width: 80px;
 }

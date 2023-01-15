@@ -8,13 +8,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="slider">
-        <div class="sliderText">Pixel Slider (reset canvas)</div>
-        <input type="range" min="1" max="50" value="8" id="gridSize"/>
-        <p>Pixels: <output id="value"></output></p>
+    <div class="optionsMenu">
+        <div class="slider">
+            <div class="sliderText">Pixel Slider (reset/resize canvas)</div>
+            <input type="range" min="1" max="50" value="8" id="gridSize"/>
+            <p>Pixels: <output id="value"></output></p>
+        </div>
+        <li class="bttns">
+            <ul><button id="blackBtn">Black</button></ul>
+            <ul><button id="whiteBtn">White</button></ul>
+            <ul><button id="randomBtn">Random</button></ul>
+        </li>
     </div>
+   
     <div class="container">
     </div>
+   
+
+    
+    
 
 
     <script src="script.js"></script>
