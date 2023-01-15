@@ -35,5 +35,9 @@ slider.addEventListener("mouseup", (event) => {
     createDivs(slider.value);
 })
 
+slider.addEventListener("input", (event) => {
+    value.textContent = event.target.value + 'x' + event.target.value;
+})
+
 createDivs(slider.value);
 
